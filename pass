@@ -1,3 +1,8 @@
+80 bits on entropy is a safe amount to have in your password {https://pthree.org/2011/03/07/strong-passwords-need-entropy/}
+So these are possible combinations we can have:
+
+  
+
 SCHEME 1
 eg - facebook
 step1- random words beginning with each f,a,c,...
