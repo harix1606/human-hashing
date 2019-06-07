@@ -1,1 +1,8 @@
-hi hello for now
+SCHEME 1
+eg - facebook
+step1- random words beginning with each f,a,c,...
+step2- choose 6 digit key
+step3- start at beginning and navigate through string
+step4- each stop character becomes a character in the password
+
+SCHEME 2
