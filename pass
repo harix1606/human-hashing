@@ -1,7 +1,4 @@
-80 bits on entropy is a safe amount to have in your password {https://pthree.org/2011/03/07/strong-passwords-need-entropy/}
-So these are possible combinations we can have:
-
-  
+80 bits on entropy is a safe amount to have in your password {https://pthree.org/2011/03/07/strong-passwords-need-entropy/}  
 
 SCHEME 1
 eg - facebook
@@ -11,3 +8,30 @@ step3- start at beginning and navigate through string
 step4- each stop character becomes a character in the password
 
 SCHEME 2
+eg - amazon
+step1- 4 letter pneumonic (eg amzn)
+step2- think of objects starting with each of those letters (eg anaconda, mouse, zip, nut)
+step3- primary color of each of those objects (browngreyblackbrown) is the password
+
+SCHEME 3
+eg - gmail
+step1- write number corresponding to 1st letter (in this case 0 7) ----> (x1,x2)
+step2- choose 2 numbers as key ---> (y1,y2)
+step3- make eqn of line y = mx+c: for eg if eqn is 14y = 7x +13, password is '14y=7x+13'
+
+###extended scheme 3
+  choose 4 numbers giving 2 points and make a curve
+  
+SCHEME 4
+eg: outlook
+step1- same as above
+step2- choose 2 other points such that these 3 points form a triangle. these 4 numbers are your key.
+step3- choose 3 rand alphabets to name your triangle (say f,u,q)
+step4- password is fu<length of FU>uq<length of UQ>qf<length of qf> (eg fu03uq11qf07 would be a password)
+
+SCHEME 5
+eg flipkart
+step1- come up with 4 letter pneumonic (eg fpkt)
+step2- songs starting with each of the letters
+step3- 4 digit key
+step4- corresponding words from the song
