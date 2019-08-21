@@ -1,5 +1,15 @@
 80 bits on entropy is a safe amount to have in your password {https://pthree.org/2011/03/07/strong-passwords-need-entropy/}  
 
+Level Segregation Criteria (draft):
+a) on the basis of entropy of the resultant password
+  * 60-75 bits, 75-85 bits 
+b) on the basis of human time taken to complete the scheme
+  * 30 secs - 1.5 mins
+  * 2 mins - 4 mins 
+c) on the basis of time complexity 
+
+
+
 SCHEME 1
 eg - facebook
 step1- random words beginning with each f,a,c,...
