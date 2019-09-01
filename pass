@@ -48,5 +48,21 @@ step4- corresponding words from the song
 
 Scheme 6: 
 eg flipkart
-step1- 4 letter pneumonic (flkt)
-step2- choose 4 letter key and apply hill cipher (say resultant string is 
+step1- reduce to 6 letters
+step2- choose 6 digit key and apply caesar cipher (choose between left or right) 
+step3- say resultant string after step2 is "c s g d a f". The corresponding numbers are 3, 19, ...
+step4- Choose any book, magazine or text
+step5- go the 3rd page and write down the first word starting with "c", 19th page and the first word starting with "s" (if you don't find "s", then "t" and so on till you find)
+step6- say you wrote down the words "cycle", "yeast", "girl",... 
+step7- now write down the 1st letter of the 1st word, 2nd letter of the 2nd word and so on... till you get 9 characters
+step8- password is <9 characters you just got>+<key-th special character on keyboard>
+
+Scheme 7:
+eg google
+step1- make 12*12 grid and populate it with alpha-numeric characters and even special characters (!,&,$,# etc). This is your template. 
+step2- make a 4 letter pneumonic say, G O L E
+step3- pick any 3*3 grid from the template (remember its starting position say B4) this is mini-template
+step4- choose 4 digit key and apply hill cipher on gole
+step5- trace out the G, O, L E on the mini-template 
+step6- write down the characters along the path. You will get 4 strings.
+step7- choose one of them as your password. 
