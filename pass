@@ -10,20 +10,20 @@ c) on the basis of time complexity
 
 
 
-SCHEME 1
+SCHEME 1 (CA-0)
 eg - facebook
 step1- random words beginning with each f,a,c,...
 step2- choose 6 digit key
 step3- start at beginning and navigate through string
 step4- each stop character becomes a character in the password
 
-SCHEME 2
+SCHEME 2 (CA-0)
 eg - amazon
 step1- 4 letter pneumonic (eg amzn)
 step2- think of objects starting with each of those letters (eg anaconda, mouse, zip, nut)
 step3- primary color of each of those objects (browngreyblackbrown) is the password
 
-SCHEME 3
+SCHEME 3 (CA-1)
 eg - gmail
 step1- write number corresponding to 1st letter (in this case 0 7) ----> (x1,x2)
 step2- choose 2 numbers as key ---> (y1,y2)
@@ -32,21 +32,21 @@ step3- make eqn of line y = mx+c: for eg if eqn is 14y = 7x +13, password is '14
 ###extended scheme 3
   choose 4 numbers giving 2 points and make a curve
   
-SCHEME 4
+SCHEME 4 (CA-1)
 eg: outlook
 step1- same as above
 step2- choose 2 other points such that these 3 points form a triangle. these 4 numbers are your key.
 step3- choose 3 rand alphabets to name your triangle (say f,u,q)
 step4- password is fu<length of FU>uq<length of UQ>qf<length of qf> (eg fu03uq11qf07 would be a password)
 
-SCHEME 5
+SCHEME 5 (CA-1)
 eg flipkart
 step1- come up with 4 letter pneumonic (eg fpkt)
 step2- songs starting with each of the letters
 step3- 4 numbers as key
 step4- corresponding words from the song
 
-Scheme 6: 
+Scheme 6: (CA-1)
 eg flipkart
 step1- reduce to 6 letters
 step2- choose 6 digit key and apply caesar cipher (choose between left or right) 
@@ -57,7 +57,7 @@ step6- say you wrote down the words "cycle", "yeast", "girl",...
 step7- now write down the 1st letter of the 1st word, 2nd letter of the 2nd word and so on... till you get 9 characters
 step8- password is <9 characters you just got>+<key-th special character on keyboard>
 
-Scheme 7:
+Scheme 7: (CA-0)
 eg google
 step1- make 12*12 grid and populate it with alpha-numeric characters and even special characters (!,&,$,# etc). This is your template. 
 step2- make a 4 letter pneumonic say, G O L E
